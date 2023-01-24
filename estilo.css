@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(201, 136, 214);
+    font-family: 'Merriweather', serif;
+
+}
+
+div.box1 {
+    background-color: white;
+    padding: 12px;
+    width: 85%;
+    margin: auto;
+    border-radius: 70px;
+}
+
+div.galeria {
+    background-color: rgb(201, 136, 214);
+    padding: 12px;
+    width: 60%;
+    margin: auto;
+    border-radius: 70px;
+}
+
+
+
+h1 {
+    background-color: rgb(201, 136, 214);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    background-color: rgb(201, 136, 214);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+fieldset {
+    margin-bottom: 12px;
+}
+
+legend {
+    background-color: rgb(201, 136, 214);
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(201, 136, 214);
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.botoncentrado {
+    text-align: center;
+}
+
+img {
+    border-radius: 50px;
+    margin-bottom: 12px;
+    margin-right: 5px;
+    width: 240px;
+    height: 240px;
+
+}
+
+span.negrita {
+    font-weight: bold;
+}
+
+.imagen01 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.imagen02 {
+    float: right;
+    width: 240px;
+    background-color: rgb(201, 136, 214);
+}
+
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
