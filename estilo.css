@@ -1,15 +1,18 @@
 body {
     background-color: rgb(201, 136, 214);
     font-family: 'Merriweather', serif;
+    display: block;
 
 }
 
 div.box1 {
     background-color: white;
     padding: 12px;
-    width: 85%;
+    width: 70%;
     margin: auto;
     border-radius: 70px;
+    display: block;
+    box-shadow: 10px 10px 15px;
 }
 
 div.galeria {
@@ -29,6 +32,8 @@ h1 {
     border-radius: 50px;
     text-align: center;
     font-size: 60px;
+    box-shadow: 10px 10px 15px;
+
 }
 
 h2 {
@@ -38,22 +43,38 @@ h2 {
     font-size: 40px;
 }
 
-fieldset {
-    margin-bottom: 12px;
-}
+
 
 legend {
     background-color: rgb(201, 136, 214);
     padding: 5px;
     border-radius: 20px;
     font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px;
+
 }
+
+
+
+
+
+.centradodetxt {
+    padding-left: auto;
+
+}
+
+
 
 button {
     background-color: rgb(201, 136, 214);
     padding: 5px;
     border-radius: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .botoncentrado {
@@ -66,6 +87,7 @@ img {
     margin-right: 5px;
     width: 240px;
     height: 240px;
+    box-shadow: 10px 10px 15px;
 
 }
 

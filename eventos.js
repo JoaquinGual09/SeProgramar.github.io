@@ -18,20 +18,22 @@ function pestaneo(elemento) {
     })
 };
 
-function mostrar() {
-    ocultartxt.classList.toggle("mostrar");
 
-    if (ocultartxt.classList.contains("mostrar")) {
-        boton.innerHTML = "Ocultar Datos";
-    }
-    else {
-        boton.innerHTML = "Mostrar Datos";
-    }
-};
+let elementoalcordeon = document.getElementsByClassName("alcordeon");
 
-function mostrarmas(elemento) {
-    elemento.addEventListener("click", mostrar);
-};
+for (let i = 0; i < elementoalcordeon.length; i++) {
+    elementoalcordeon[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        let Ocultar = this.nextElementSibling;
+        if (Ocultar.style.display == "block") {
+            Ocultar.style.display = "none";
+        }
+        else {
+            Ocultar.style.display = "block"
+        }
+
+    });
+}
 
 
 
@@ -48,11 +50,10 @@ const boton = document.getElementById("boton")
 
 pestaneo(h1);
 pestaneo(h2);
-pestaneo(boton);
 pestaneo(DG);
 pestaneo(FA);
 pestaneo(ExL);
 pestaneo(HS);
-mostrarmas(boton);
+
 
 
