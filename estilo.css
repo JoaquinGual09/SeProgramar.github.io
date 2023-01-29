@@ -69,17 +69,7 @@ legend {
 
 
 
-button {
-    background-color: rgb(201, 136, 214);
-    padding: 5px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
 
-.botoncentrado {
-    text-align: center;
-}
 
 img {
     border-radius: 50px;
@@ -112,6 +102,3 @@ span.negrita {
     display: none;
 }
 
-.mostrar {
-    display: block;
-}
